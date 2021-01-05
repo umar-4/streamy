@@ -1,0 +1,25 @@
+{
+  "streams": [
+    {
+      "title": "Year 2020",
+      "description": "welcome to the year 2020",
+      "id": 1
+    },
+    {
+      "title": "This is an another Stream",
+      "description": "wow this stream is good",
+      "id": 2
+    },
+    {
+      "title": "sdfd",
+      "description": "fdf",
+      "id": 3
+    },
+    {
+      "title": "56767",
+      "description": "q44",
+      "userId": "108478610562264515715",
+      "id": 4
+    }
+  ]
+}
