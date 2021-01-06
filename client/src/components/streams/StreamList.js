@@ -27,7 +27,9 @@ const StreamList = ({ fetchStreams, streams, currentUserId, isSignedIn }) => {
 					<Link to={`/streams/edit/${stream.id}`} className="btn btn-primary mx-1">
 						Edit
 					</Link>
-					<button className="btn btn-danger">Delete</button>
+					<Link to={`/streams/delete/${stream.id}`} className="btn btn-danger mx-1">
+						Delete
+					</Link>
 				</div>
 			);
 		}
