@@ -43,10 +43,14 @@ const StreamList = ({ fetchStreams, streams, currentUserId, isSignedIn }) => {
 							<i className="fas fa-camera py-3 px-3" style={{ fontSize: '3.3rem', color: '#dc3545' }} />
 						</div>
 						<div className="col-md-9">
-							<div className="card-body">
+							<Link
+								to={`/streams/${stream.id}`}
+								style={{ color: 'black', textDecoration: 'none' }}
+								className="card-body"
+							>
 								<h5 className="card-title">{stream.title}</h5>
 								<p className="card-text">{stream.description}</p>
-							</div>
+							</Link>
 						</div>
 						{renderAdmin(stream)}
 					</div>
